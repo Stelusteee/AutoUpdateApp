@@ -13,7 +13,7 @@ namespace AutoUpdateApp
         {
             var currentVersion = "1.0.0";
             using var client = new HttpClient();
-            var latestVersion = await client.GetStringAsync("link");
+            var latestVersion = await client.GetStringAsync("https://github.com/Stelusteee/AutoUpdateApp/blob/master/version.txt");
 
             if (latestVersion != currentVersion)
             {
