@@ -1,0 +1,17 @@
+C:\Users\stelu\source\repos\AutoUpdateApp\AutoUpdateApp\bin\Release\net8.0-windows\AutoUpdateApp.exe
+C:\Users\stelu\source\repos\AutoUpdateApp\AutoUpdateApp\bin\Release\net8.0-windows\AutoUpdateApp.deps.json
+C:\Users\stelu\source\repos\AutoUpdateApp\AutoUpdateApp\bin\Release\net8.0-windows\AutoUpdateApp.runtimeconfig.json
+C:\Users\stelu\source\repos\AutoUpdateApp\AutoUpdateApp\bin\Release\net8.0-windows\AutoUpdateApp.dll
+C:\Users\stelu\source\repos\AutoUpdateApp\AutoUpdateApp\bin\Release\net8.0-windows\AutoUpdateApp.pdb
+C:\Users\stelu\source\repos\AutoUpdateApp\AutoUpdateApp\obj\Release\net8.0-windows\AutoUpdateApp.Form1.resources
+C:\Users\stelu\source\repos\AutoUpdateApp\AutoUpdateApp\obj\Release\net8.0-windows\AutoUpdateApp.csproj.GenerateResource.cache
+C:\Users\stelu\source\repos\AutoUpdateApp\AutoUpdateApp\obj\Release\net8.0-windows\AutoUpdateApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stelu\source\repos\AutoUpdateApp\AutoUpdateApp\obj\Release\net8.0-windows\AutoUpdateApp.AssemblyInfoInputs.cache
+C:\Users\stelu\source\repos\AutoUpdateApp\AutoUpdateApp\obj\Release\net8.0-windows\AutoUpdateApp.AssemblyInfo.cs
+C:\Users\stelu\source\repos\AutoUpdateApp\AutoUpdateApp\obj\Release\net8.0-windows\AutoUpdateApp.csproj.CoreCompileInputs.cache
+C:\Users\stelu\source\repos\AutoUpdateApp\AutoUpdateApp\obj\Release\net8.0-windows\AutoUpdateApp.sourcelink.json
+C:\Users\stelu\source\repos\AutoUpdateApp\AutoUpdateApp\obj\Release\net8.0-windows\AutoUpdateApp.dll
+C:\Users\stelu\source\repos\AutoUpdateApp\AutoUpdateApp\obj\Release\net8.0-windows\refint\AutoUpdateApp.dll
+C:\Users\stelu\source\repos\AutoUpdateApp\AutoUpdateApp\obj\Release\net8.0-windows\AutoUpdateApp.pdb
+C:\Users\stelu\source\repos\AutoUpdateApp\AutoUpdateApp\obj\Release\net8.0-windows\AutoUpdateApp.genruntimeconfig.cache
+C:\Users\stelu\source\repos\AutoUpdateApp\AutoUpdateApp\obj\Release\net8.0-windows\ref\AutoUpdateApp.dll

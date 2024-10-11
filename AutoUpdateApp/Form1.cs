@@ -5,6 +5,24 @@ namespace AutoUpdateApp
         public Form1()
         {
             InitializeComponent();
+
+            CheckForUpdates();
+        }
+
+        private async Task<bool> CheckForUpdates()
+        {
+            var currentVersion = "1.0.0";
+            using var client = new HttpClient();
+            var latestVersion = await client.GetStringAsync("link");
+
+            if (latestVersion != currentVersion)
+            {
+                // download the app
+                MessageBox.Show("HEY THERES A NEW UPDATE");
+                return true;
+            }
+
+            return false;
         }
     }
 }
