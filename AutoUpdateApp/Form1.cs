@@ -1,3 +1,5 @@
+using System.Diagnostics;
+
 namespace AutoUpdateApp
 {
     public partial class Form1 : Form
@@ -9,20 +11,27 @@ namespace AutoUpdateApp
             CheckForUpdates();
         }
 
-        private async Task<bool> CheckForUpdates()
+        public async Task CheckForUpdates()
         {
-            var currentVersion = "1.0.0";
-            using var client = new HttpClient();
-            var latestVersion = await client.GetStringAsync("https://github.com/Stelusteee/AutoUpdateApp/blob/master/version.txt");
+            string currentVersion = "1.0.1";
+            string versionUrl = "https://raw.githubusercontent.com/Stelusteee/AutoUpdateApp/refs/heads/master/version.txt";
 
-            if (latestVersion != currentVersion)
+            using (HttpClient client = new HttpClient())
             {
-                // download the app
-                MessageBox.Show("HEY THERES A NEW UPDATE");
-                return true;
-            }
+                try
+                {
+                    string latestVersion = await client.GetStringAsync(versionUrl);
 
-            return false;
+                    if (latestVersion.Trim() != currentVersion)
+                    {
+                        MessageBox.Show("New version available: " + latestVersion);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error checking version: " + ex.Message);
+                }
+            }
         }
     }
 }
